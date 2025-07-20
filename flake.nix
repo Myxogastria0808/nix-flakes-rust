@@ -1,5 +1,5 @@
 {
-  description = "dashi-server flake";
+  description = "rust flake sample";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
