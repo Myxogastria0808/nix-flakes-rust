@@ -27,7 +27,9 @@
           with pkgs;
           mkShell {
             buildInputs = [
+              # for axum
               openssl
+              # background code checker
               pkg-config
               bacon
               (rust-bin.stable.latest.default.override { extensions = [ "rust-src" ]; })
